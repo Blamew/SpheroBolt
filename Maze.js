@@ -15,4 +15,6 @@ await setMainLed({ r: 0, g: 0, b: 255 })
 // Move toward Noise and make Noise
 await roll(450,75, 1.705)
 await Sound.EightBit.LevelComplete.play()
+// Movement + RED LED
+await roll(540,75,1.5)
 }
